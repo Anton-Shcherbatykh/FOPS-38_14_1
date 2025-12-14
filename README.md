@@ -59,7 +59,9 @@
 
 #### Промежуточный итог
 
-Проверил, что у меня получилось на network странице по ссылке https://github.com/Anton-Shcherbatykh/FOPS-38_14/network
+Проверил, что у меня получилось на network странице по ссылке [https://github.com/Anton-Shcherbatykh/FOPS-38_14/network](https://github.com/Anton-Shcherbatykh/FOPS-38_14_1/network)
+
+
 
 Соответствует заданию.
 
