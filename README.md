@@ -61,9 +61,9 @@
 
 Проверил, что у меня получилось на network странице по ссылке [https://github.com/Anton-Shcherbatykh/FOPS-38_14/network](https://github.com/Anton-Shcherbatykh/FOPS-38_14_1/network)
 
-
+![alt text](Pictures/Pic012.jpg)
 
 Соответствует заданию.
 
 #### Merge
-Переключаюсь на ветку ```main```. Слива. ветку ```git-merge``` в ```main``` и отправля. изменения в репозиторий/
+Переключаюсь на ветку ```main```. Сливаю ветку ```git-merge``` в ```main``` и отправляю изменения в репозиторий
