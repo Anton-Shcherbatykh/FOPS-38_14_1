@@ -52,3 +52,16 @@
 **Шаг 4.** Отправляю эти изменения в ветку ```git-rebase``` с комментарием ```git-rebase 1```.
 
 ![alt text](Pictures/Pic010.jpg)
+
+**Шаг 5.** Сделал ещё один коммит ```git-rebase 2``` с пушем, заменив ```echo "Parameter: $param"``` на ```echo "Next parameter: $param"```
+
+![alt text](Pictures/Pic011.jpg)
+
+#### Промежуточный итог
+
+Проверил, что у меня получилось на network странице по ссылке https://github.com/Anton-Shcherbatykh/FOPS-38_14/network
+
+Соответствует заданию.
+
+#### Merge
+Переключаюсь на ветку ```main```. Слива. ветку ```git-merge``` в ```main``` и отправля. изменения в репозиторий/
