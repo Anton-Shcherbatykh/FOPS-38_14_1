@@ -44,3 +44,11 @@
 ![alt text](Pictures/Pic08.jpg)
 
 ![alt text](Pictures/Pic09.jpg)
+
+**Шаг 2.** Создаю ветку git-rebase, основываясь на текущем коммите
+
+**Шаг 3.** Изменяю содержимое файла ```rebase.sh``` согласно задания
+
+**Шаг 4.** Отправляю эти изменения в ветку ```git-rebase``` с комментарием ```git-rebase 1```.
+
+![alt text](Pictures/Pic010.jpg)
