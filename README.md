@@ -25,4 +25,45 @@
 
 #### Изменим ```main```
 
-**Шаг 1.** Вернулся в ветку ```main```. 
+**Шаг 1.** Вернулся в ветку ```main```. (команда отражена на скрине в следующем шаге)
+
+**Шаг 2.** Изменил содержимое файла rebase.sh
+
+![alt text](Pictures/Pic05_1.jpg)
+
+**Шаг 3.** Отправил изменения в ветку main:
+
+![alt text](Pictures/Pic06.jpg)
+
+#### Подготовка файла rebase.sh
+
+**Шаг 1.** С помощью команды git log нахожу хеш коммита ```prepare for merge and rebase``` и выполняю ```git checkout``` на него:
+
+![alt text](Pictures/Pic07.jpg)
+
+![alt text](Pictures/Pic08.jpg)
+
+![alt text](Pictures/Pic09.jpg)
+
+**Шаг 2.** Создаю ветку git-rebase, основываясь на текущем коммите
+
+**Шаг 3.** Изменяю содержимое файла ```rebase.sh``` согласно задания
+
+**Шаг 4.** Отправляю эти изменения в ветку ```git-rebase``` с комментарием ```git-rebase 1```.
+
+![alt text](Pictures/Pic010.jpg)
+
+**Шаг 5.** Сделал ещё один коммит ```git-rebase 2``` с пушем, заменив ```echo "Parameter: $param"``` на ```echo "Next parameter: $param"```
+
+![alt text](Pictures/Pic011.jpg)
+
+#### Промежуточный итог
+
+Проверил, что у меня получилось на network странице по ссылке [https://github.com/Anton-Shcherbatykh/FOPS-38_14/network](https://github.com/Anton-Shcherbatykh/FOPS-38_14_1/network)
+
+
+
+Соответствует заданию.
+
+#### Merge
+Переключаюсь на ветку ```main```. Слива. ветку ```git-merge``` в ```main``` и отправля. изменения в репозиторий/
