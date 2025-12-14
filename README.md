@@ -79,7 +79,26 @@
 
 ![alt text](Pictures/Pic015.jpg)
 
-Шаг 3. Удаляю метки, выбираю вариант echo "$@ Parameter #$count = $param"
+**Шаг 3.** Удаляю метки, выбираю вариант echo "$@ Parameter #$count = $param"
 
-Шаг 4. Сообщаю Git, что конфликт решён и продолжаю rebase.
+**Шаг 4.** Сообщаю Git, что конфликт решён и продолжаю rebase.
 
+![alt text](Pictures/Pic016.jpg)
+
+Шаг 5 и 6 пропущен, т.к. конфликт был разрешён
+
+**Шаг 7.** Пытаюсь выполнить пуш и вижу, что команда завершается с ошибкой:
+
+![alt text](Pictures/Pic017.jpg)
+
+Это происходит потому, что я пытаюсь перезаписать историю.
+
+**Шаг 8.** Пытаюсь выполнить пуш с флагом force и это удается сделать:
+
+![alt text](Pictures/Pic018.jpg)
+
+**Шаг 9.** Смержу ветку git-rebase в main простой перемоткой:
+
+![alt text](Pictures/Pic019.jpg)
+
+Проверил, что у меня получилось на network странице по ссылке [FOPS-38_14/network](https://github.com/Anton-Shcherbatykh/FOPS-38_14_1/network)
