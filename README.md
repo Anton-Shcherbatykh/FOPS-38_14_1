@@ -59,13 +59,27 @@
 
 #### Промежуточный итог
 
-Проверил, что у меня получилось на network странице по ссылке [https://github.com/Anton-Shcherbatykh/FOPS-38_14/network](https://github.com/Anton-Shcherbatykh/FOPS-38_14_1/network)
+Проверил, что у меня получилось на network странице по ссылке [FOPS-38_14/network](https://github.com/Anton-Shcherbatykh/FOPS-38_14_1/network)
 
 ![alt text](Pictures/Pic012.jpg)
-
-Соответствует заданию.
 
 #### Merge
 Переключаюсь на ветку ```main```. Сливаю ветку ```git-merge``` в ```main``` и отправляю изменения в репозиторий
 
 ![alt text](Pictures/Pic013.jpg)
+
+Результат тут [FOPS-38_14/network](https://github.com/Anton-Shcherbatykh/FOPS-38_14_1/network)
+
+#### Rebase
+**Шаг 1.** и **Шаг 2.** Выполнил rebase ветки git-rebase на main, создав конфликт:
+
+![alt text](Pictures/Pic014.jpg)
+
+Смотрю содержимое файла rebase.sh и вижу метки, оставленные Git для решения конфликта:
+
+![alt text](Pictures/Pic015.jpg)
+
+Шаг 3. Удаляю метки, выбираю вариант echo "$@ Parameter #$count = $param"
+
+Шаг 4. Сообщаю Git, что конфликт решён и продолжаю rebase.
+
