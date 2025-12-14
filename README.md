@@ -16,3 +16,7 @@
 **Шаг 3.** Создал коммит "merge: @ instead *" и запушил изменения в репозиторий
 
 ![alt text](Pictures/Pic04.jpg)
+
+**Шаг 4.** Вношу ещё одни изменения в файл ```merge.sh```
+
+![alt text](Pictures/Pic05.jpg)
